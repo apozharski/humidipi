@@ -24,7 +24,7 @@ void read_dht()
 
   pinMode( DHTPIN, OUTPUT );
   digitalWrite( DHTPIN, LOW );
-  delay( 18 );
+  delay(20);
   digitalWrite( DHTPIN, HIGH );
   delayMicroseconds( 40 );
   pinMode( DHTPIN, INPUT );
